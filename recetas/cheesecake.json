@@ -1,0 +1,53 @@
+{
+  "titulo": "Cheesecake",
+  "categoria": "Postres",
+  "tiempo": "1 h 15 min + nevera",
+  "dificultad": "Fácil",
+  "raciones": 10,
+  "descripcion": "Tarta de queso cremosa al horno. Se hace todo en la batidora: las galletas van mezcladas con el resto.",
+  "ingredientes": [
+    { "nombre": "Huevos", "cantidad": 4, "unidad": "" },
+    { "nombre": "Queso crema tipo Philadelphia", "cantidad": 350, "unidad": "g" },
+    { "nombre": "Mascarpone", "cantidad": 250, "unidad": "g" },
+    { "nombre": "Nata para cocinar", "cantidad": 200, "unidad": "ml" },
+    { "nombre": "Leche condensada", "cantidad": 200, "unidad": "ml" },
+    { "nombre": "Galletas", "cantidad": 12, "unidad": "", "nota": "tipo María" }
+  ],
+  "pasos": [
+    {
+      "texto": "Saca de la nevera los huevos, los quesos y la nata unos 30 minutos antes de empezar.",
+      "consejo": "Si están a temperatura ambiente se mezclan mejor y no quedan grumos."
+    },
+    {
+      "texto": "Enciende el horno a 150 ºC, con calor arriba y abajo y sin ventilador, para que se vaya calentando."
+    },
+    {
+      "texto": "Forra un molde redondo de unos 22–24 cm con papel de horno: el fondo y los laterales.",
+      "consejo": "Si el molde es desmontable (de los que se abre el aro), mejor: luego es mucho más fácil sacar la tarta."
+    },
+    {
+      "texto": "Pon todos los ingredientes en el vaso de la batidora (o en un bol alto si usas batidora de mano), con las galletas partidas en trozos. Bate 1–2 minutos hasta que quede una crema lisa, sin trozos de galleta ni de queso."
+    },
+    {
+      "texto": "Vierte la mezcla en el molde y dale un par de golpecitos suaves contra la encimera para que suban las burbujas de aire."
+    },
+    {
+      "texto": "Mete el molde en el horno, a media altura, y hornea 1 hora.",
+      "consejo": "Está lista cuando los bordes están firmes y el centro todavía tiembla un poco al mover el molde, como una gelatina. Termina de cuajar al enfriarse."
+    },
+    {
+      "texto": "Apaga el horno y deja la tarta dentro 30 minutos más con la puerta entreabierta.",
+      "consejo": "Así se enfría poco a poco y es menos probable que se agriete."
+    },
+    {
+      "texto": "Sácala y déjala enfriar del todo en la encimera (1 hora, más o menos). Después tápala con film y métela en la nevera al menos 4 horas, mejor toda la noche."
+    },
+    {
+      "texto": "Para servir, desmolda con cuidado tirando del papel de horno y córtala con un cuchillo pasado por agua caliente."
+    }
+  ],
+  "consejos": [
+    "Aguanta 3–4 días en la nevera, tapada.",
+    "Queda muy bien con mermelada de frutos rojos por encima."
+  ]
+}
