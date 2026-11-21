@@ -59,6 +59,8 @@
   .search:focus { border-color: var(--accent); }
 
   /* HOME */
+  .banner { padding: 16px 20px 0; }
+  .banner img { width: 100%; display: block; border-radius: 14px; aspect-ratio: 2 / 1; }
   .list { padding: 16px 20px; display: flex; flex-direction: column; gap: 10px; }
   .cat-title {
     font-family: 'DM Mono', monospace; font-size: 11px;
@@ -200,6 +202,7 @@ function renderHome(filtro = '') {
   soltarPantalla();
   document.title = 'Recetas';
   app.innerHTML = `
+    <div class="banner"><img src="banner.svg" alt="Un chef y un robot cocinando"></div>
     <header>
       <h1>Recetas</h1>
       <div class="count">${indice.length} ${indice.length === 1 ? 'receta' : 'recetas'}</div>

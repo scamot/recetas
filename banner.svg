@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img" aria-label="Un chef con bigote y un robot cocinero en una cocina">
+  <defs>
+    <pattern id="tiles" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#6cc4bd"/>
+      <path d="M0 0H16M0 0V16" stroke="#4fa39c" stroke-width="1.5"/>
+    </pattern>
+    <clipPath id="frame"><rect width="400" height="200" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)" stroke="#1a1a1a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- pared -->
+    <rect width="400" height="200" fill="#f6c87e" stroke="none"/>
+    <rect y="92" width="400" height="60" fill="url(#tiles)" stroke="none"/>
+    <line x1="0" y1="92" x2="400" y2="92" stroke-width="2"/>
+
+    <!-- ventana -->
+    <rect x="312" y="14" width="70" height="56" rx="4" fill="#8fd3ff"/>
+    <circle cx="364" cy="30" r="9" fill="#ffe066" stroke-width="2"/>
+    <path d="M318 60 q12 -12 22 -2 q10 -10 22 0 q8 -6 16 2 V66 H318z" fill="#7bc96f" stroke-width="2"/>
+    <path d="M347 14V70M312 42H382" stroke-width="3"/>
+    <path d="M306 12 h82 l-6 12 h-70z" fill="#e8505b"/>
+    <path d="M318 12 l-4 12 M332 12 l-2 12 M346 12 v12 M360 12 l2 12 M374 12 l4 12" stroke="#fff" stroke-width="2"/>
+
+    <!-- barra con utensilios colgados -->
+    <line x1="18" y1="16" x2="128" y2="16" stroke-width="3.5"/>
+    <path d="M30 16 v14" stroke-width="2"/><circle cx="30" cy="40" r="11" fill="#e8505b"/><circle cx="30" cy="40" r="5" fill="#b83a44" stroke-width="1.5"/>
+    <path d="M56 16 v28" stroke-width="3"/><ellipse cx="56" cy="50" rx="6" ry="8" fill="#9aa4a8"/>
+    <path d="M78 16 v10" stroke-width="2"/><path d="M78 26 v22" stroke-width="3"/><rect x="71" y="48" width="14" height="10" rx="2" fill="#9aa4a8"/>
+    <path d="M102 16 v12" stroke-width="2"/><circle cx="102" cy="44" r="15" fill="#3a3a3a"/><circle cx="102" cy="44" r="9" fill="#555" stroke-width="1.5"/>
+
+    <!-- estante con botes -->
+    <rect x="150" y="58" width="130" height="7" rx="2" fill="#a0522d"/>
+    <rect x="156" y="34" width="20" height="24" rx="4" fill="#ff9f43"/><rect x="156" y="30" width="20" height="6" rx="2" fill="#c0392b"/>
+    <rect x="182" y="40" width="16" height="18" rx="3" fill="#a29bfe"/><rect x="182" y="36" width="16" height="5" rx="2" fill="#6c5ce7"/>
+    <path d="M206 58 v-16 q0 -6 6 -8 v-6 h6 v6 q6 2 6 8 v16z" fill="#7bc96f"/>
+    <rect x="232" y="38" width="20" height="20" rx="4" fill="#ffe066"/><rect x="232" y="34" width="20" height="5" rx="2" fill="#e1b12c"/>
+    <path d="M258 58 l4 -20 h12 l4 20z" fill="#ff6b81"/>
+    <!-- hierbas en maceta -->
+    <path d="M138 58 h10 l-2 -14 h-6z" fill="#c0603a" stroke-width="2"/>
+    <path d="M143 44 q-8 -10 -4 -18 M143 44 q2 -12 8 -16 M143 44 q-2 -10 2 -20" fill="none" stroke="#3c9d4e" stroke-width="2.5"/>
+
+    <!-- ROBOT (derecha) -->
+    <path d="M262 132 L230 110" stroke-width="7"/>
+    <path d="M318 128 L350 104" stroke-width="7"/>
+    <line x1="350" y1="104" x2="358" y2="88" stroke-width="3"/>
+    <ellipse cx="362" cy="80" rx="7" ry="10" fill="none" stroke-width="2"/>
+    <path d="M356 84 q6 -10 12 0" fill="none" stroke-width="1.5"/>
+    <ellipse cx="224" cy="104" rx="7" ry="9" fill="#fff6e6"/>
+    <rect x="258" y="120" width="64" height="60" rx="10" fill="#8a9bb0"/>
+    <circle cx="290" cy="140" r="8" fill="#ff6b6b"/>
+    <rect x="262" y="78" width="56" height="40" rx="9" fill="#a9b8c9"/>
+    <rect x="270" y="88" width="15" height="12" rx="3" fill="#163016"/><rect x="295" y="88" width="15" height="12" rx="3" fill="#163016"/>
+    <circle cx="277.5" cy="94" r="2.8" fill="#7cf06a" stroke="none"/><circle cx="302.5" cy="94" r="2.8" fill="#7cf06a" stroke="none"/>
+    <path d="M278 109 h24 M283 105 v8 M290 105 v8 M297 105 v8" stroke-width="2"/>
+    <line x1="318" y1="86" x2="328" y2="76" stroke-width="2"/><circle cx="330" cy="74" r="3.5" fill="#ff6b6b"/>
+    <rect x="270" y="64" width="40" height="11" rx="3" fill="#fff"/>
+    <circle cx="276" cy="58" r="9" fill="#fff"/><circle cx="304" cy="58" r="9" fill="#fff"/><circle cx="290" cy="52" r="12" fill="#fff"/>
+
+    <!-- huevo volando -->
+    <path d="M232 92 q-20 -34 -48 -24" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <ellipse cx="180" cy="72" rx="6" ry="8" fill="#fff6e6" stroke-width="2" transform="rotate(-25 180 72)"/>
+
+    <!-- CHEF (izquierda) -->
+    <path d="M184 104 q-2 -28 11 -15 q2 -24 13 -4 q9 -15 8 6 q-15 11 -32 13z" fill="#f07a2a"/>
+    <path d="M191 102 q2 -15 9 -6 q4 -11 8 2 q-8 6 -17 4z" fill="#f5c242" stroke-width="1.5"/>
+    <line x1="146" y1="122" x2="176" y2="112" stroke-width="5"/>
+    <ellipse cx="196" cy="108" rx="24" ry="7" fill="#3a3a3a"/>
+    <path d="M116 132 L148 120" stroke-width="12"/><path d="M116 132 L148 120" stroke="#fff" stroke-width="7"/>
+    <rect x="70" y="120" width="58" height="66" rx="18" fill="#fff"/>
+    <path d="M99 124 v40" stroke-width="1.5"/>
+    <path d="M84 120 l15 14 l15 -14" fill="#e8505b" stroke-width="2"/>
+    <ellipse cx="99" cy="98" rx="26" ry="25" fill="#f2c29b"/>
+    <circle cx="74" cy="100" r="5" fill="#f2c29b" stroke-width="2"/>
+    <rect x="78" y="64" width="42" height="13" rx="3" fill="#fff"/>
+    <circle cx="82" cy="58" r="14" fill="#fff"/><circle cx="116" cy="58" r="14" fill="#fff"/><circle cx="99" cy="48" r="17" fill="#fff"/>
+    <circle cx="90" cy="92" r="8.5" fill="#fff"/><circle cx="109" cy="92" r="8.5" fill="#fff"/>
+    <circle cx="93" cy="95" r="2.8" fill="#1a1a1a"/><circle cx="112" cy="89" r="2.8" fill="#1a1a1a"/>
+    <path d="M82 81 l12 3 M104 84 l12 -4" stroke-width="2.5"/>
+    <path d="M79 108 q10 -10 20 -1 q10 -9 20 1 q-10 10 -20 3 q-10 7 -20 -3z" fill="#5b3a1e"/>
+    <ellipse cx="99" cy="118" rx="5.5" ry="4.5" fill="#6a1f1f"/>
+    <path d="M68 80 q-6 9 0 12 q6 -3 0 -12z" fill="#8fd3ff" stroke-width="1.5"/>
+
+    <!-- encimera -->
+    <rect y="152" width="400" height="12" fill="#e07a4a"/>
+    <rect y="164" width="400" height="40" fill="#b5532f"/>
+    <path d="M100 164 v40 M200 164 v40 M300 164 v40" stroke-width="2"/>
+    <path d="M46 178 h8 M146 178 h8 M246 178 h8 M346 178 h8" stroke="#ffe066" stroke-width="3"/>
+
+    <!-- ingredientes sobre la encimera -->
+    <circle cx="20" cy="144" r="9" fill="#e8505b"/><path d="M17 135 l3 2 l3 -2" fill="none" stroke="#3c9d4e" stroke-width="2"/>
+    <circle cx="36" cy="146" r="7" fill="#e8505b"/>
+    <path d="M140 152 l26 -10 l2 6 z" fill="#ff9f43"/><path d="M166 142 l6 -6 M166 143 l8 -2" stroke="#3c9d4e" stroke-width="2"/>
+    <path d="M186 152 l18 -14 l18 14z" fill="#ffd166"/><circle cx="198" cy="147" r="2" fill="#e1b12c" stroke="none"/><circle cx="208" cy="148" r="2.5" fill="#e1b12c" stroke="none"/>
+    <ellipse cx="236" cy="146" rx="13" ry="7" fill="#d4a056"/><path d="M228 143 l3 4 M235 141 l3 4 M242 142 l3 4" stroke-width="1.5"/>
+    <circle cx="340" cy="145" r="8" fill="#ffe066"/><circle cx="354" cy="146" r="7" fill="#ffe066"/>
+    <path d="M374 152 q-2 -16 8 -20 q10 4 8 20z" fill="#a29bfe"/><path d="M382 132 v-6" stroke="#3c9d4e" stroke-width="2.5"/>
+  </g>
+</svg>
