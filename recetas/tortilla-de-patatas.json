@@ -5,12 +5,38 @@
   "dificultad": "Fácil",
   "raciones": 4,
   "descripcion": "La clásica, con cebolla. Jugosa por dentro.",
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tortilla_de_patata.jpg?width=960",
+  "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Tortilla_de_patata.jpg",
   "ingredientes": [
-    { "nombre": "Patatas", "cantidad": 600, "unidad": "g", "nota": "medianas" },
-    { "nombre": "Huevos", "cantidad": 6, "unidad": "" },
-    { "nombre": "Cebolla", "cantidad": 1, "unidad": "", "nota": "mediana" },
-    { "nombre": "Aceite de oliva", "cantidad": 250, "unidad": "ml", "nota": "para freír; luego se recupera casi todo" },
-    { "nombre": "Sal", "cantidad": null, "unidad": "", "nota": "al gusto" }
+    {
+      "nombre": "Patatas",
+      "cantidad": 600,
+      "unidad": "g",
+      "nota": "medianas"
+    },
+    {
+      "nombre": "Huevos",
+      "cantidad": 6,
+      "unidad": ""
+    },
+    {
+      "nombre": "Cebolla",
+      "cantidad": 1,
+      "unidad": "",
+      "nota": "mediana"
+    },
+    {
+      "nombre": "Aceite de oliva",
+      "cantidad": 250,
+      "unidad": "ml",
+      "nota": "para freír; luego se recupera casi todo"
+    },
+    {
+      "nombre": "Sal",
+      "cantidad": null,
+      "unidad": "",
+      "nota": "al gusto"
+    }
   ],
   "pasos": [
     {

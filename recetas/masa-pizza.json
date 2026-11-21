@@ -5,6 +5,8 @@
   "dificultad": "Fácil",
   "raciones": 1,
   "descripcion": "Masa casera rápida para una pizza mediana (unos 30 cm), fina. Con levadura química, así que no hay que esperar a que suba.",
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza-3007395.jpg?width=960",
+  "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Pizza-3007395.jpg",
   "ingredientes": [
     {
       "nombre": "Harina de trigo",

@@ -5,6 +5,8 @@
   "dificultad": "Fácil",
   "raciones": 2,
   "descripcion": "Bizcocho de plátano con proteína y chocolate negro, sin harina de trigo ni azúcar.",
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Banana_Chocolate_Chip_Bread,_March_2009.jpg?width=960",
+  "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Banana_Chocolate_Chip_Bread,_March_2009.jpg",
   "ingredientes": [
     {
       "nombre": "Plátano",

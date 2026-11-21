@@ -5,13 +5,40 @@
   "dificultad": "Fácil",
   "raciones": 10,
   "descripcion": "Tarta de queso cremosa al horno. Se hace todo en la batidora: las galletas van mezcladas con el resto.",
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Lemon_Cheesecake_Fontanella_Tea_Garden.jpg?width=960",
+  "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Lemon_Cheesecake_Fontanella_Tea_Garden.jpg",
   "ingredientes": [
-    { "nombre": "Huevos", "cantidad": 4, "unidad": "" },
-    { "nombre": "Queso crema tipo Philadelphia", "cantidad": 350, "unidad": "g" },
-    { "nombre": "Mascarpone", "cantidad": 250, "unidad": "g" },
-    { "nombre": "Nata para cocinar", "cantidad": 200, "unidad": "ml" },
-    { "nombre": "Leche condensada", "cantidad": 200, "unidad": "ml" },
-    { "nombre": "Galletas", "cantidad": 12, "unidad": "", "nota": "tipo María" }
+    {
+      "nombre": "Huevos",
+      "cantidad": 4,
+      "unidad": ""
+    },
+    {
+      "nombre": "Queso crema tipo Philadelphia",
+      "cantidad": 350,
+      "unidad": "g"
+    },
+    {
+      "nombre": "Mascarpone",
+      "cantidad": 250,
+      "unidad": "g"
+    },
+    {
+      "nombre": "Nata para cocinar",
+      "cantidad": 200,
+      "unidad": "ml"
+    },
+    {
+      "nombre": "Leche condensada",
+      "cantidad": 200,
+      "unidad": "ml"
+    },
+    {
+      "nombre": "Galletas",
+      "cantidad": 12,
+      "unidad": "",
+      "nota": "tipo María"
+    }
   ],
   "pasos": [
     {
