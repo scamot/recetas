@@ -1,5 +1,6 @@
 [
   {"slug": "tortilla-de-patatas", "titulo": "Tortilla de patatas", "categoria": "Platos principales", "tiempo": "45 min", "dificultad": "Fácil"},
+  {"slug": "potaje-lentejas-chorizo", "titulo": "Potaje de lentejas con chorizo", "categoria": "Platos principales", "tiempo": "35 min", "dificultad": "Fácil"},
   {"slug": "cheesecake", "titulo": "Cheesecake", "categoria": "Postres", "tiempo": "1 h 15 min + nevera", "dificultad": "Fácil"},
   {"slug": "banana-bread", "titulo": "Banana bread casero", "categoria": "Postres", "tiempo": "40 min", "dificultad": "Fácil"},
   {"slug": "masa-pizza", "titulo": "Masa de pizza", "categoria": "Masas y bases", "tiempo": "35 min", "dificultad": "Fácil"}

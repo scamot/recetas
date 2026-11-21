@@ -1,0 +1,61 @@
+{
+  "titulo": "Potaje de lentejas con chorizo",
+  "categoria": "Platos principales",
+  "tiempo": "35 min",
+  "dificultad": "Fácil",
+  "raciones": 2,
+  "descripcion": "Potaje rápido con lentejas de bote, chorizo, sofrito y verduras.",
+  "ingredientes": [
+    { "nombre": "Lentejas cocidas de bote", "cantidad": 400, "unidad": "g", "nota": "escurridas y enjuagadas" },
+    { "nombre": "Chorizo para cocinar", "cantidad": 100, "unidad": "g" },
+    { "nombre": "Patata", "cantidad": 1, "unidad": "", "nota": "mediana" },
+    { "nombre": "Zanahorias", "cantidad": 2, "unidad": "" },
+    { "nombre": "Calabacín", "cantidad": 1, "unidad": "", "nota": "pequeño" },
+    { "nombre": "Cebolla", "cantidad": 0.5, "unidad": "", "nota": "media mediana, o una pequeña" },
+    { "nombre": "Dientes de ajo", "cantidad": 2, "unidad": "" },
+    { "nombre": "Tomate maduro", "cantidad": 1, "unidad": "" },
+    { "nombre": "Aceite de oliva", "cantidad": 2, "unidad": "cucharada" },
+    { "nombre": "Pimentón dulce", "cantidad": 0.5, "unidad": "cucharadita" },
+    { "nombre": "Agua o caldo de verduras", "cantidad": 600, "unidad": "ml" },
+    { "nombre": "Sal", "cantidad": null, "unidad": "", "nota": "al gusto (poca, el chorizo ya es salado)" },
+    { "nombre": "Hoja de laurel", "cantidad": 1, "unidad": "", "nota": "opcional" },
+    { "nombre": "Comino molido", "cantidad": 0.5, "unidad": "cucharadita", "nota": "opcional" }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta el chorizo en rodajas. Pica la cebolla y el ajo en trocitos pequeños. Corta el tomate por la mitad y rállalo; tira la piel. Pela la patata y córtala en trozos pequeños. Corta las zanahorias en rodajas y el calabacín en dados.",
+      "consejo": "Para la patata, clava el cuchillo y gíralo para que el trozo se rompa ('cascarla'): suelta más almidón y el potaje espesa mejor. Al rallar el tomate, pon la cara cortada contra el rallador y la piel se te quedará en la mano."
+    },
+    {
+      "texto": "Pon el aceite en una olla a fuego medio y dora el chorizo 2 minutos, hasta que suelte su grasa roja. Sácalo a un plato y deja el aceite en la olla.",
+      "consejo": "Si ha soltado muchísima grasa, retira un poco antes de seguir."
+    },
+    {
+      "texto": "En ese mismo aceite, cocina la cebolla a fuego medio-bajo unos 5 minutos, removiendo de vez en cuando, hasta que esté blanda y transparente."
+    },
+    {
+      "texto": "Añade el ajo y la zanahoria y remueve un par de minutos, sin que el ajo se ponga marrón."
+    },
+    {
+      "texto": "Echa el tomate rallado y deja que se cocine unos 5 minutos, hasta que pierda casi todo el agua y se oscurezca un poco."
+    },
+    {
+      "texto": "Aparta la olla del fuego, añade el pimentón (y el comino si lo usas) y remueve unos 10 segundos.",
+      "consejo": "Se aparta del fuego porque el pimentón se quema muy rápido y amarga."
+    },
+    {
+      "texto": "Vuelve a poner la olla al fuego y añade la patata, el chorizo, el agua o caldo, el laurel y una pizca de sal. Cuando empiece a hervir, baja a fuego medio y deja 15 minutos."
+    },
+    {
+      "texto": "Añade el calabacín y las lentejas y cocina 8–10 minutos más, hasta que la patata se deshaga fácilmente al pincharla con un tenedor.",
+      "consejo": "Las lentejas de bote ya están cocidas; solo necesitan calentarse y coger sabor. Por eso van al final, para que no se deshagan."
+    },
+    {
+      "texto": "Si lo quieres más espeso, aplasta unos trozos de patata y lentejas contra la pared de la olla con una cuchara. Prueba, ajusta de sal y deja reposar 5 minutos antes de servir."
+    }
+  ],
+  "consejos": [
+    "Un chorrito de vinagre al servir le da un toque muy rico.",
+    "Aguanta 3 días en la nevera y al día siguiente está aún más bueno. Si espesa demasiado al recalentar, añade un poco de agua."
+  ]
+}
