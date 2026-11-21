@@ -4,7 +4,7 @@
   "tiempo": "45 min",
   "dificultad": "Fácil",
   "raciones": 4,
-  "descripcion": "La clásica, con cebolla. Jugosa por dentro. Receta de ejemplo para ver cómo queda la app.",
+  "descripcion": "La clásica, con cebolla. Jugosa por dentro.",
   "ingredientes": [
     { "nombre": "Patatas", "cantidad": 600, "unidad": "g", "nota": "medianas" },
     { "nombre": "Huevos", "cantidad": 6, "unidad": "" },

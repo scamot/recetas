@@ -195,7 +195,7 @@ function renderHome(filtro = '') {
   document.title = 'Recetas';
   app.innerHTML = `
     <header>
-      <h1>Mis recetas</h1>
+      <h1>Recetas</h1>
       <div class="count">${indice.length} ${indice.length === 1 ? 'receta' : 'recetas'}</div>
       <input class="search" id="q" type="search" placeholder="Buscar receta…" value="${esc(filtro)}" autocomplete="off">
     </header>
