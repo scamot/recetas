@@ -1,0 +1,51 @@
+{
+  "titulo": "Tortilla de patatas",
+  "categoria": "Platos principales",
+  "tiempo": "45 min",
+  "dificultad": "Fácil",
+  "raciones": 4,
+  "descripcion": "La clásica, con cebolla. Jugosa por dentro. Receta de ejemplo para ver cómo queda la app.",
+  "ingredientes": [
+    { "nombre": "Patatas", "cantidad": 600, "unidad": "g", "nota": "medianas" },
+    { "nombre": "Huevos", "cantidad": 6, "unidad": "" },
+    { "nombre": "Cebolla", "cantidad": 1, "unidad": "", "nota": "mediana" },
+    { "nombre": "Aceite de oliva", "cantidad": 250, "unidad": "ml", "nota": "para freír; luego se recupera casi todo" },
+    { "nombre": "Sal", "cantidad": null, "unidad": "", "nota": "al gusto" }
+  ],
+  "pasos": [
+    {
+      "texto": "Pela las patatas, lávalas y córtalas en láminas finas, de unos 3 mm (más o menos el grosor de una moneda de 2 €). Pela la cebolla y córtala en tiras finas.",
+      "consejo": "Cuanto más finas y parecidas entre sí sean las láminas, más por igual se harán todas."
+    },
+    {
+      "texto": "Pon el aceite en una sartén grande a fuego medio. Espera 2–3 minutos hasta que esté caliente: si echas una lámina de patata y salen burbujitas alrededor, ya está."
+    },
+    {
+      "texto": "Echa las patatas y la cebolla con una pizca de sal. Deja que se hagan a fuego medio-bajo unos 20 minutos, removiendo de vez en cuando con una espátula.",
+      "consejo": "No buscamos que se doren ni queden crujientes, sino que se ablanden. Están listas cuando se rompen fácilmente al apretarlas con la espátula."
+    },
+    {
+      "texto": "Mientras tanto, bate los huevos en un bol grande con una pizca de sal."
+    },
+    {
+      "texto": "Saca las patatas y la cebolla con una espumadera (o un colador) para que escurra el aceite, y mézclalas con el huevo batido. Deja reposar 5 minutos.",
+      "consejo": "Guarda el aceite que sobra en un bote: sirve para otras veces."
+    },
+    {
+      "texto": "Retira casi todo el aceite de la sartén, dejando solo una cucharada. Ponla a fuego medio-alto y vierte la mezcla. Durante el primer minuto, mueve un poco la sartén para que no se pegue."
+    },
+    {
+      "texto": "Baja a fuego medio y deja que cuaje 3–4 minutos, hasta que los bordes estén firmes y el centro siga algo líquido."
+    },
+    {
+      "texto": "Para darle la vuelta: pon un plato llano más grande que la sartén encima, sujétalo bien con una mano, y con un gesto rápido gira la sartén boca abajo. Desliza la tortilla de nuevo a la sartén por el lado crudo.",
+      "consejo": "Hazlo encima del fregadero por si gotea algo de huevo. Si dudas, el gesto rápido sale mejor que el lento."
+    },
+    {
+      "texto": "Deja 1–2 minutos más por este lado (menos si te gusta jugosa, más si la quieres bien hecha) y pásala a un plato."
+    }
+  ],
+  "consejos": [
+    "Se puede comer caliente, templada o fría. Aguanta 2 días en la nevera tapada."
+  ]
+}

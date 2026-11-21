@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Recetas">
+<meta name="theme-color" content="#0f0f0f">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="icon" href="icon.png">
+<title>Recetas</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --surface: #1a1a1a;
+    --surface2: #222;
+    --border: #2e2e2e;
+    --accent: #f0a860;
+    --accent-dim: rgba(240,168,96,0.12);
+    --text: #f0f0f0;
+    --muted: #8a8a8a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: env(safe-area-inset-top) 0 calc(60px + env(safe-area-inset-bottom));
+  }
+  .mono { font-family: 'DM Mono', monospace; }
+
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--bg);
+    padding: 24px 20px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  h1 {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px; font-weight: 400;
+    color: var(--accent);
+    letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  .count { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .search {
+    margin-top: 14px; width: 100%;
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border); border-radius: 8px;
+    padding: 11px 14px; font: inherit; font-size: 16px;
+    outline: none;
+  }
+  .search:focus { border-color: var(--accent); }
+
+  /* HOME */
+  .list { padding: 16px 20px; display: flex; flex-direction: column; gap: 10px; }
+  .cat-title {
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted); margin: 10px 0 2px;
+  }
+  .cat-title:first-child { margin-top: 0; }
+  .cta {
+    display: flex; align-items: center; gap: 12px;
+    width: 100%; text-align: left;
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px; font: inherit; cursor: pointer;
+    transition: transform .1s, border-color .2s;
+  }
+  .cta:active { transform: scale(0.98); border-color: var(--accent); }
+  .cta-name { font-size: 17px; font-weight: 500; }
+  .cta-meta { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .cta-arrow { margin-left: auto; color: var(--accent); font-size: 20px; }
+  .empty { color: var(--muted); text-align: center; padding: 40px 20px; }
+
+  /* DETALLE */
+  .back {
+    background: none; border: none; color: var(--accent);
+    font: inherit; font-size: 15px; cursor: pointer;
+    padding: 0; display: flex; align-items: center; gap: 6px;
+  }
+  .detail { padding: 20px; }
+  .r-title { font-size: 26px; font-weight: 600; line-height: 1.2; }
+  .r-desc { color: var(--muted); margin-top: 8px; font-size: 15px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip {
+    font-family: 'DM Mono', monospace; font-size: 12px;
+    background: var(--accent-dim); color: var(--accent);
+    padding: 4px 10px; border-radius: 4px;
+  }
+
+  .section-title {
+    font-family: 'DM Mono', monospace; font-size: 12px;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin: 28px 0 12px;
+  }
+  .servings {
+    display: flex; align-items: center; justify-content: space-between;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 10px 14px;
+  }
+  .servings span { color: var(--muted); font-size: 15px; }
+  .stepper { display: flex; align-items: center; gap: 14px; }
+  .stepper button {
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 1px solid var(--border); background: var(--surface2);
+    color: var(--text); font-size: 20px; cursor: pointer; line-height: 1;
+  }
+  .stepper button:active { border-color: var(--accent); }
+  .stepper b { font-family: 'DM Mono', monospace; font-size: 18px; min-width: 24px; text-align: center; }
+
+  .ingredients { list-style: none; margin-top: 12px; }
+  .ingredients li {
+    display: flex; gap: 14px; align-items: baseline;
+    padding: 11px 0; border-bottom: 1px solid var(--border);
+  }
+  .ingredients li.group {
+    border: none; padding: 16px 0 4px;
+    font-size: 13px; color: var(--muted); font-weight: 500;
+  }
+  .qty {
+    font-family: 'DM Mono', monospace; font-size: 15px;
+    color: var(--accent); min-width: 78px; flex-shrink: 0;
+  }
+  .ing-note { color: var(--muted); font-size: 14px; }
+
+  details.steps {
+    margin-top: 28px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; overflow: hidden;
+  }
+  details.steps summary {
+    list-style: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px; font-size: 17px; font-weight: 500;
+  }
+  details.steps summary::-webkit-details-marker { display: none; }
+  .chev { color: var(--accent); transition: transform .2s; font-size: 14px; }
+  details[open] .chev { transform: rotate(180deg); }
+  .steps-body { padding: 0 16px 16px; }
+  .step { display: flex; gap: 14px; padding: 14px 0; border-top: 1px solid var(--border); }
+  .step-n {
+    flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%;
+    background: var(--accent-dim); color: var(--accent);
+    font-family: 'DM Mono', monospace; font-size: 13px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .step-text { font-size: 16px; }
+  .tip {
+    margin-top: 8px; font-size: 14px; color: #d8c4a8;
+    background: rgba(240,168,96,0.07); border-left: 2px solid var(--accent);
+    padding: 8px 10px; border-radius: 0 6px 6px 0;
+  }
+  .tips { margin-top: 20px; }
+  .tips li { margin: 0 0 8px 18px; color: #ccc; font-size: 15px; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+const app = document.getElementById('app');
+let indice = [];
+const cache = {};
+let wakeLock = null;
+
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+async function cargarIndice() {
+  const r = await fetch('recetas/indice.json', { cache: 'no-cache' });
+  indice = await r.json();
+  indice.sort((a, b) => a.titulo.localeCompare(b.titulo, 'es'));
+}
+
+async function cargarReceta(slug) {
+  if (!cache[slug]) {
+    const r = await fetch(`recetas/${slug}.json`, { cache: 'no-cache' });
+    if (!r.ok) throw new Error('No encontrada');
+    cache[slug] = await r.json();
+  }
+  return cache[slug];
+}
+
+/* ---------- HOME ---------- */
+function renderHome(filtro = '') {
+  soltarPantalla();
+  document.title = 'Recetas';
+  app.innerHTML = `
+    <header>
+      <h1>Mis recetas</h1>
+      <div class="count">${indice.length} ${indice.length === 1 ? 'receta' : 'recetas'}</div>
+      <input class="search" id="q" type="search" placeholder="Buscar receta…" value="${esc(filtro)}" autocomplete="off">
+    </header>
+    <div class="list" id="list"></div>`;
+  const q = document.getElementById('q');
+  q.addEventListener('input', () => pintarLista(q.value));
+  pintarLista(filtro);
+}
+
+function pintarLista(filtro) {
+  const list = document.getElementById('list');
+  const f = norm(filtro.trim());
+  const items = indice.filter(r => !f || norm(r.titulo + ' ' + (r.categoria || '')).includes(f));
+  if (!items.length) {
+    list.innerHTML = `<div class="empty">${indice.length ? 'Ninguna receta coincide.' : 'Todavía no hay recetas.'}</div>`;
+    return;
+  }
+  const porCat = {};
+  items.forEach(r => (porCat[r.categoria || 'Otras'] ??= []).push(r));
+  list.innerHTML = Object.keys(porCat).sort((a, b) => a.localeCompare(b, 'es')).map(cat => `
+    <div class="cat-title">${esc(cat)}</div>
+    ${porCat[cat].map(r => `
+      <button class="cta" onclick="location.hash='#/${r.slug}'">
+        <div>
+          <div class="cta-name">${esc(r.titulo)}</div>
+          <div class="cta-meta">${[r.tiempo, r.dificultad].filter(Boolean).map(esc).join(' · ')}</div>
+        </div>
+        <span class="cta-arrow">›</span>
+      </button>`).join('')}
+  `).join('');
+}
+
+/* ---------- CANTIDADES ---------- */
+function formatear(cant, unidad, factor) {
+  if (cant == null) return '';
+  let v = cant * factor;
+  const u = unidad || '';
+  // pasar a kg / l si es grande
+  if (u === 'g' && v >= 1000) return fmtNum(v / 1000, 2) + ' kg';
+  if (u === 'ml' && v >= 1000) return fmtNum(v / 1000, 2) + ' l';
+  if (u === 'g' || u === 'ml') {
+    v = v < 20 ? Math.round(v) : v < 200 ? Math.round(v / 5) * 5 : Math.round(v / 10) * 10;
+    return v + ' ' + u;
+  }
+  // unidades, cucharadas, etc. → redondeo a medios
+  return fracc(v) + (u ? ' ' + u : '');
+}
+function fmtNum(v, d) { return String(+v.toFixed(d)).replace('.', ','); }
+function fracc(v) {
+  const r = Math.round(v * 4) / 4;
+  const ent = Math.floor(r), dec = r - ent;
+  const f = { 0.25: '¼', 0.5: '½', 0.75: '¾' }[dec] || '';
+  if (!ent && !f) return '¼';
+  return (ent ? ent : '') + f;
+}
+
+/* ---------- DETALLE ---------- */
+async function renderReceta(slug) {
+  app.innerHTML = `<div class="detail"><button class="back" onclick="volver()">‹ Recetas</button></div>`;
+  let r;
+  try { r = await cargarReceta(slug); }
+  catch { app.innerHTML += `<div class="empty">No he encontrado esta receta.</div>`; return; }
+  document.title = r.titulo;
+  let rac = r.raciones || 1;
+
+  const pintar = () => {
+    const factor = rac / (r.raciones || 1);
+    document.getElementById('rac').textContent = rac;
+    document.getElementById('ing').innerHTML = r.ingredientes.map(i => i.grupo
+      ? `<li class="group">${esc(i.grupo)}</li>`
+      : `<li>
+           <span class="qty">${esc(formatear(i.cantidad, i.unidad, factor))}</span>
+           <span>${esc(i.nombre)}${i.nota ? ` <span class="ing-note">· ${esc(i.nota)}</span>` : ''}</span>
+         </li>`).join('');
+  };
+
+  app.innerHTML = `
+    <div class="detail">
+      <button class="back" onclick="volver()">‹ Recetas</button>
+      <h2 class="r-title" style="margin-top:18px">${esc(r.titulo)}</h2>
+      ${r.descripcion ? `<p class="r-desc">${esc(r.descripcion)}</p>` : ''}
+      <div class="chips">
+        ${[r.tiempo && '⏱ ' + r.tiempo, r.dificultad, r.categoria].filter(Boolean).map(c => `<span class="chip">${esc(c)}</span>`).join('')}
+      </div>
+
+      <div class="section-title">Ingredientes</div>
+      ${r.raciones ? `
+      <div class="servings">
+        <span>Raciones</span>
+        <div class="stepper">
+          <button id="menos" aria-label="Menos raciones">−</button>
+          <b id="rac">${rac}</b>
+          <button id="mas" aria-label="Más raciones">+</button>
+        </div>
+      </div>` : '<b id="rac" hidden></b>'}
+      <ul class="ingredients" id="ing"></ul>
+
+      <details class="steps" id="pasos">
+        <summary>Cómo se hace <span class="chev">▼</span></summary>
+        <div class="steps-body">
+          ${r.pasos.map((p, n) => `
+            <div class="step">
+              <div class="step-n">${n + 1}</div>
+              <div>
+                <div class="step-text">${esc(p.texto)}</div>
+                ${p.consejo ? `<div class="tip">💡 ${esc(p.consejo)}</div>` : ''}
+              </div>
+            </div>`).join('')}
+          ${r.consejos?.length ? `
+            <div class="section-title" style="margin-top:16px">Consejos</div>
+            <ul class="tips">${r.consejos.map(c => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}
+        </div>
+      </details>
+    </div>`;
+
+  pintar();
+  if (r.raciones) {
+    document.getElementById('menos').onclick = () => { if (rac > 1) { rac--; pintar(); } };
+    document.getElementById('mas').onclick = () => { if (rac < 30) { rac++; pintar(); } };
+  }
+  // Mantener la pantalla encendida mientras los pasos están abiertos
+  document.getElementById('pasos').addEventListener('toggle', e => e.target.open ? pedirPantalla() : soltarPantalla());
+  window.scrollTo(0, 0);
+}
+
+async function pedirPantalla() {
+  try { if ('wakeLock' in navigator) wakeLock = await navigator.wakeLock.request('screen'); } catch {}
+}
+function soltarPantalla() { try { wakeLock?.release(); } catch {} wakeLock = null; }
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && document.getElementById('pasos')?.open) pedirPantalla();
+});
+
+function volver() {
+  location.hash = '';
+}
+
+/* ---------- ROUTER ---------- */
+function router() {
+  const slug = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
+  slug ? renderReceta(slug) : renderHome();
+}
+
+(async () => {
+  try { await cargarIndice(); }
+  catch { app.innerHTML = '<div class="empty">No se han podido cargar las recetas.</div>'; return; }
+  window.addEventListener('hashchange', router);
+  router();
+})();
+</script>
+</body>
+</html>
