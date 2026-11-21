@@ -241,7 +241,9 @@ function formatear(cant, unidad, factor) {
     return v + ' ' + u;
   }
   // unidades, cucharadas, etc. → redondeo a medios
-  return fracc(v) + (u ? ' ' + u : '');
+  // plural automático: "1 cucharada" / "2 cucharadas"
+  const ud = u && Math.round(v * 4) / 4 > 1 && !/s$/.test(u) ? u + 's' : u;
+  return fracc(v) + (ud ? ' ' + ud : '');
 }
 function fmtNum(v, d) { return String(+v.toFixed(d)).replace('.', ','); }
 function fracc(v) {

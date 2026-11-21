@@ -26,4 +26,4 @@ Web app personal de recetas, pensada para el iPhone (GitHub Pages).
 }
 ```
 
-Unidades: siempre sistema métrico (`g`, `ml`) o `cda`/`cdta` (cucharada/cucharadita) o vacío para unidades sueltas.
+Unidades: siempre sistema métrico (`g`, `ml`), o palabras en singular (`cucharada`, `cucharadita`, `scoop`) que la app pone en plural sola, o vacío para unidades sueltas.

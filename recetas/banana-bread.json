@@ -1,0 +1,50 @@
+{
+  "titulo": "Banana bread casero",
+  "categoria": "Postres",
+  "tiempo": "40 min",
+  "dificultad": "Fácil",
+  "raciones": 2,
+  "descripcion": "Bizcocho de plátano con proteína y chocolate negro, sin harina de trigo ni azúcar.",
+  "ingredientes": [
+    { "nombre": "Plátano", "cantidad": 1, "unidad": "", "nota": "cuanto más maduro, mejor" },
+    { "nombre": "Huevo entero", "cantidad": 1, "unidad": "" },
+    { "nombre": "Claras de huevo", "cantidad": 2, "unidad": "", "nota": "unos 60 ml si son de brick" },
+    { "nombre": "Harina de avena", "cantidad": 2, "unidad": "cucharada", "nota": "soperas, unos 20 g" },
+    { "nombre": "Proteína en polvo", "cantidad": 1, "unidad": "scoop", "nota": "unos 30 g" },
+    { "nombre": "Levadura química (tipo Royal)", "cantidad": 1, "unidad": "cucharadita", "nota": "unos 4 g" },
+    { "nombre": "Canela molida", "cantidad": 1, "unidad": "cucharadita" },
+    { "nombre": "Jengibre molido", "cantidad": 0.5, "unidad": "cucharadita", "nota": "opcional" },
+    { "nombre": "Eritritol", "cantidad": 1, "unidad": "cucharada", "nota": "opcional, para endulzar" },
+    { "nombre": "Chocolate negro 85 %", "cantidad": 20, "unidad": "g", "nota": "2 onzas, en trocitos" }
+  ],
+  "pasos": [
+    {
+      "texto": "Enciende el horno a 180 ºC, con calor arriba y abajo, para que se vaya calentando mientras preparas la masa."
+    },
+    {
+      "texto": "Pela el plátano, ponlo en un bol y aplástalo con un tenedor hasta que quede como un puré.",
+      "consejo": "Si el plátano tiene manchas marrones en la piel, mejor: está más dulce y se aplasta más fácil."
+    },
+    {
+      "texto": "Añade el huevo, las claras, la harina de avena, la proteína, la levadura, la canela y, si los usas, el jengibre y el eritritol. Bate con las varillas hasta que no queden grumos."
+    },
+    {
+      "texto": "Corta el chocolate en trocitos con un cuchillo y mézclalo con una cuchara. Puedes guardar unos cuantos para ponerlos por encima.",
+      "consejo": "El chocolate se añade al final y con cuchara para que no se deshaga con las varillas."
+    },
+    {
+      "texto": "Engrasa el molde de cristal rectangular con un poco de aceite (o fórralo con papel de horno) y vierte la masa. Reparte por encima los trocitos de chocolate que hayas guardado."
+    },
+    {
+      "texto": "Hornea 30 minutos a media altura.",
+      "consejo": "Para saber si está hecho, pincha el centro con un palillo o un cuchillo fino: si sale limpio, ya está. Si sale con masa húmeda, déjalo 5 minutos más."
+    },
+    {
+      "texto": "Sácalo y déjalo enfriar 10 minutos en el molde antes de cortarlo, para que no se rompa."
+    }
+  ],
+  "consejos": [
+    "Aguanta 3 días en la nevera en un táper.",
+    "Si no tienes harina de avena, puedes triturar copos de avena en la batidora hasta que queden como polvo."
+  ]
+}
