@@ -1,0 +1,64 @@
+{
+  "titulo": "Banana bread clásico",
+  "categoria": "Postres",
+  "tiempo": "1 h 30 min",
+  "dificultad": "Fácil",
+  "raciones": 10,
+  "descripcion": "El bizcocho de plátano de toda la vida, esponjoso y con canela. Sale un molde alargado de plum cake.",
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Banana_bread_loaf_on_a_plate.jpg?width=960",
+  "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Banana_bread_loaf_on_a_plate.jpg",
+  "ingredientes": [
+    { "nombre": "Aceite vegetal (girasol)", "cantidad": 210, "unidad": "g", "nota": "unos 230 ml, y un poco más para untar el molde" },
+    { "nombre": "Azúcar moreno", "cantidad": 210, "unidad": "g" },
+    { "nombre": "Huevos", "cantidad": 2, "unidad": "" },
+    { "nombre": "Extracto de vainilla", "cantidad": 1, "unidad": "cucharadita" },
+    { "nombre": "Harina de trigo", "cantidad": 235, "unidad": "g" },
+    { "nombre": "Sal fina", "cantidad": 1, "unidad": "pizca" },
+    { "nombre": "Bicarbonato sódico", "cantidad": 1, "unidad": "cucharadita" },
+    { "nombre": "Levadura química (tipo Royal)", "cantidad": 1, "unidad": "cucharadita" },
+    { "nombre": "Canela molida", "cantidad": 1, "unidad": "cucharadita" },
+    { "nombre": "Jengibre molido", "cantidad": 0.5, "unidad": "cucharadita" },
+    { "nombre": "Plátanos muy maduros", "cantidad": 2, "unidad": "", "nota": "medianos, unos 235 g pelados" },
+    { "nombre": "Azúcar demerara", "cantidad": null, "unidad": "", "nota": "opcional, para espolvorear" }
+  ],
+  "pasos": [
+    {
+      "texto": "Enciende el horno a 170 ºC con ventilador (o a 180 ºC con calor arriba y abajo si el tuyo no tiene ventilador)."
+    },
+    {
+      "texto": "Prepara un molde rectangular alargado de plum cake (unos 23–25 cm de largo): úntalo con un poco de aceite, fórralo con papel de horno y unta también el papel con aceite.",
+      "consejo": "Este bizcocho se pega mucho, incluso al papel. Por eso se unta el papel con aceite."
+    },
+    {
+      "texto": "Pela los plátanos y córtalos en rodajas finas, de medio centímetro."
+    },
+    {
+      "texto": "En un bol grande pon el azúcar, los huevos y la vainilla. Bate con energía (con varillas eléctricas es más fácil) hasta que la mezcla se vuelva más clara y espumosa, unos 2–3 minutos."
+    },
+    {
+      "texto": "Sin dejar de batir, añade el aceite muy poco a poco, como un hilo fino. Cuando esté todo, bate 2 minutos más hasta que quede una crema espesa.",
+      "consejo": "Ir despacio con el aceite es lo importante: si lo echas de golpe, la mezcla no se pone cremosa."
+    },
+    {
+      "texto": "En otro bol, pasa por un colador la harina, la sal, el bicarbonato, la levadura, la canela y el jengibre, para que no queden grumos."
+    },
+    {
+      "texto": "Echa esta mezcla seca y las rodajas de plátano en el bol de la crema. Mezcla con una espátula o cuchara, sin batir, solo hasta que no se vea harina.",
+      "consejo": "No mezcles de más: si se trabaja mucho, el bizcocho queda duro en vez de esponjoso."
+    },
+    {
+      "texto": "Vierte la masa en el molde. Si quieres un toque crujiente, espolvorea un poco de azúcar demerara por encima."
+    },
+    {
+      "texto": "Hornea 1 hora y 10 minutos, a media altura, hasta que esté bien dorado.",
+      "consejo": "Pincha el centro con un palillo: si sale limpio, está hecho. Si a mitad de horneado se dora demasiado por arriba, tápalo con papel de aluminio."
+    },
+    {
+      "texto": "Sácalo y déjalo enfriar en el molde unos 15 minutos. Después desmóldalo tirando del papel y deja que se enfríe del todo antes de cortarlo."
+    }
+  ],
+  "consejos": [
+    "Cuanto más maduros los plátanos (con la piel muy manchada o casi negra), más dulce y jugoso queda.",
+    "Aguanta 3–4 días bien tapado a temperatura ambiente."
+  ]
+}
