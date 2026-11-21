@@ -59,7 +59,8 @@
   .search:focus { border-color: var(--accent); }
 
   /* HOME */
-  .banner { padding: 16px 20px 0; }
+  .banner { padding: 16px 20px 0; position: sticky; top: 0; z-index: 0; }
+  .sheet { position: relative; z-index: 1; background: var(--bg); min-height: 100vh; }
   .banner img { width: 100%; display: block; border-radius: 14px; aspect-ratio: 2 / 1; }
   .list { padding: 16px 20px; display: flex; flex-direction: column; gap: 10px; }
   .cat-title {
@@ -203,12 +204,14 @@ function renderHome(filtro = '') {
   document.title = 'Recetas';
   app.innerHTML = `
     <div class="banner"><img src="banner.svg" alt="Un chef y un robot cocinando"></div>
+    <div class="sheet">
     <header>
       <h1>Recetas</h1>
       <div class="count">${indice.length} ${indice.length === 1 ? 'receta' : 'recetas'}</div>
       <input class="search" id="q" type="search" placeholder="Buscar receta…" value="${esc(filtro)}" autocomplete="off">
     </header>
-    <div class="list" id="list"></div>`;
+    <div class="list" id="list"></div>
+    </div>`;
   const q = document.getElementById('q');
   q.addEventListener('input', () => pintarLista(q.value));
   pintarLista(filtro);
