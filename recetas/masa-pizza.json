@@ -1,41 +1,58 @@
 {
   "titulo": "Masa de pizza",
   "categoria": "Masas y bases",
-  "tiempo": "30 min + 1 h de reposo",
+  "tiempo": "35 min",
   "dificultad": "Fácil",
   "raciones": 1,
-  "descripcion": "Masa casera para una pizza mediana (unos 30 cm), fina.",
+  "descripcion": "Masa casera rápida para una pizza mediana (unos 30 cm), fina. Con levadura química, así que no hay que esperar a que suba.",
   "ingredientes": [
-    { "nombre": "Harina de trigo", "cantidad": 150, "unidad": "g" },
-    { "nombre": "Agua", "cantidad": 75, "unidad": "ml", "nota": "templada" },
-    { "nombre": "Aceite de oliva", "cantidad": 2, "unidad": "cucharada" },
-    { "nombre": "Levadura de panadero seca", "cantidad": 4, "unidad": "g" },
-    { "nombre": "Sal", "cantidad": 2, "unidad": "pizca" }
+    {
+      "nombre": "Harina de trigo",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "nombre": "Agua",
+      "cantidad": 75,
+      "unidad": "ml"
+    },
+    {
+      "nombre": "Aceite de oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "nombre": "Levadura química (Royal)",
+      "cantidad": 4,
+      "unidad": "g",
+      "nota": "un cuarto de sobre"
+    },
+    {
+      "nombre": "Sal",
+      "cantidad": 2,
+      "unidad": "pizca"
+    }
   ],
   "pasos": [
     {
-      "texto": "Calienta un poco el agua (unos segundos en el microondas) hasta que esté templada, y disuelve en ella la levadura removiendo con una cuchara. Déjala 5 minutos.",
-      "consejo": "Templada quiere decir que al meter el dedo se nota tibia pero no quema. Si el agua está muy caliente, la levadura se muere y la masa no sube."
+      "texto": "Enciende el horno al máximo (250 ºC o lo que dé el tuyo), con calor arriba y abajo, para que se vaya calentando mientras haces la masa."
     },
     {
-      "texto": "En un bol grande pon la harina y la sal y mézclalas. Añade el agua con la levadura y el aceite."
+      "texto": "En un bol grande mezcla la harina, la sal y la levadura."
     },
     {
-      "texto": "Mezcla con una cuchara hasta que no quede harina suelta y se forme una bola rugosa."
+      "texto": "Añade el agua y el aceite y mezcla con una cuchara hasta que no quede harina suelta y se forme una bola rugosa."
     },
     {
-      "texto": "Echa un poco de harina en la encimera y amasa con las manos 8–10 minutos: aplasta la masa hacia delante con la palma, dóblala sobre sí misma, gírala un poco y repite.",
-      "consejo": "Está lista cuando queda lisa, elástica y ya no se pega a las manos. Si se pega mucho, añade un poco de harina; si está muy seca y se rompe, mójate las manos."
+      "texto": "Echa un poco de harina en la encimera y amasa con las manos 3–5 minutos: aplasta la masa hacia delante con la palma, dóblala sobre sí misma, gírala un poco y repite.",
+      "consejo": "Está lista cuando queda lisa y ya no se pega a las manos. Si se pega mucho, añade un poco de harina; si está muy seca y se rompe, mójate las manos."
     },
     {
-      "texto": "Haz una bola, ponla en un bol untado con un poco de aceite y tápalo con un paño o film. Déjala reposar 1 hora en un sitio sin corrientes, hasta que doble su tamaño.",
-      "consejo": "Un buen sitio es dentro del horno apagado con solo la luz encendida."
+      "texto": "Haz una bola, tápala con un paño y déjala reposar 10 minutos.",
+      "consejo": "Con la levadura Royal la masa no sube como con la de panadero; este reposo solo sirve para que luego se estire más fácil sin encogerse."
     },
     {
-      "texto": "Mientras reposa los últimos 15 minutos, enciende el horno al máximo (250 ºC o lo que dé el tuyo), con calor arriba y abajo."
-    },
-    {
-      "texto": "Aplasta la masa con los dedos para sacarle el aire y estírala con las manos o con un rodillo sobre papel de horno, hasta que tenga unos 30 cm y quede fina."
+      "texto": "Estírala con las manos o con un rodillo sobre papel de horno, hasta que tenga unos 30 cm y quede fina."
     },
     {
       "texto": "Hornea la base sola 5 minutos. Sácala, pon la salsa y los ingredientes que quieras, y hornea 8–10 minutos más, hasta que los bordes estén dorados y el queso fundido.",
@@ -43,6 +60,6 @@
     }
   ],
   "consejos": [
-    "La masa se puede preparar por la mañana y dejarla en la nevera, tapada, hasta la noche. Sácala 30 minutos antes de estirarla."
+    "La levadura Royal empieza a actuar en cuanto se moja, así que mejor estirar y hornear la masa enseguida; no conviene dejarla horas esperando."
   ]
 }
