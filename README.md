@@ -27,3 +27,7 @@ Web app personal de recetas, pensada para el iPhone (GitHub Pages).
 ```
 
 Unidades: siempre sistema métrico (`g`, `ml`), o palabras en singular (`cucharada`, `cucharadita`, `scoop`) que la app pone en plural sola, o vacío para unidades sueltas.
+
+## Imágenes
+
+Cada receta puede llevar `imagen` (URL) e `imagen_fuente` (página de la foto). Se usan fotos de uso libre de Wikimedia Commons, lo más parecidas posible a la receta (p. ej. tarta de queso sin topping si la receta no lo lleva); si no hay una exacta, una semejante (p. ej. un guiso de legumbres). Sin `imagen`, la receta se muestra sin foto.

@@ -87,6 +87,12 @@
     padding: 0; display: flex; align-items: center; gap: 6px;
   }
   .detail { padding: 20px; }
+  .hero { position: relative; margin: calc(-1 * env(safe-area-inset-top)) 0 0; height: 240px; background: var(--surface); overflow: hidden; }
+  .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(15,15,15,.55) 0%, rgba(15,15,15,0) 35%, rgba(15,15,15,0) 70%, rgba(15,15,15,1) 100%); }
+  .hero .back { position: absolute; z-index: 2; top: calc(16px + env(safe-area-inset-top)); left: 16px; background: rgba(15,15,15,.6); padding: 6px 12px; border-radius: 99px; }
+  .hero-credit { position: absolute; z-index: 2; right: 12px; top: calc(22px + env(safe-area-inset-top)); font-size: 10px; color: rgba(255,255,255,.6); text-decoration: none; }
+  .detail.con-foto { padding-top: 0; margin-top: -24px; position: relative; z-index: 3; }
   .r-title { font-size: 26px; font-weight: 600; line-height: 1.2; }
   .r-desc { color: var(--muted); margin-top: 8px; font-size: 15px; }
   .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
@@ -275,9 +281,15 @@ async function renderReceta(slug) {
   };
 
   app.innerHTML = `
-    <div class="detail">
+    ${r.imagen ? `
+    <div class="hero">
+      <img src="${esc(r.imagen)}" alt="" onerror="this.style.display='none'">
       <button class="back" onclick="volver()">‹ Recetas</button>
-      <h2 class="r-title" style="margin-top:18px">${esc(r.titulo)}</h2>
+      ${r.imagen_fuente ? `<a class="hero-credit" href="${esc(r.imagen_fuente)}" target="_blank" rel="noopener">Foto: Wikimedia Commons</a>` : ''}
+    </div>` : ''}
+    <div class="detail${r.imagen ? ' con-foto' : ''}">
+      ${r.imagen ? '' : '<button class="back" onclick="volver()">‹ Recetas</button>'}
+      <h2 class="r-title" style="margin-top:${r.imagen ? 0 : 18}px">${esc(r.titulo)}</h2>
       ${r.descripcion ? `<p class="r-desc">${esc(r.descripcion)}</p>` : ''}
       <div class="chips">
         ${[r.tiempo && '⏱ ' + r.tiempo, r.dificultad, r.categoria].filter(Boolean).map(c => `<span class="chip">${esc(c)}</span>`).join('')}

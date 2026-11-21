@@ -5,21 +5,86 @@
   "dificultad": "Fácil",
   "raciones": 2,
   "descripcion": "Potaje rápido con lentejas de bote, chorizo, sofrito y verduras.",
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Lentejas_con_malaya_de_cerdo.JPG?width=960",
+  "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Lentejas_con_malaya_de_cerdo.JPG",
   "ingredientes": [
-    { "nombre": "Lentejas cocidas de bote", "cantidad": 400, "unidad": "g", "nota": "escurridas y enjuagadas" },
-    { "nombre": "Chorizo para cocinar", "cantidad": 100, "unidad": "g" },
-    { "nombre": "Patata", "cantidad": 1, "unidad": "", "nota": "mediana" },
-    { "nombre": "Zanahorias", "cantidad": 2, "unidad": "" },
-    { "nombre": "Calabacín", "cantidad": 1, "unidad": "", "nota": "pequeño" },
-    { "nombre": "Cebolla", "cantidad": 0.5, "unidad": "", "nota": "media mediana, o una pequeña" },
-    { "nombre": "Dientes de ajo", "cantidad": 2, "unidad": "" },
-    { "nombre": "Tomate maduro", "cantidad": 1, "unidad": "" },
-    { "nombre": "Aceite de oliva", "cantidad": 2, "unidad": "cucharada" },
-    { "nombre": "Pimentón dulce", "cantidad": 0.5, "unidad": "cucharadita" },
-    { "nombre": "Agua o caldo de verduras", "cantidad": 600, "unidad": "ml" },
-    { "nombre": "Sal", "cantidad": null, "unidad": "", "nota": "al gusto (poca, el chorizo ya es salado)" },
-    { "nombre": "Hoja de laurel", "cantidad": 1, "unidad": "", "nota": "opcional" },
-    { "nombre": "Comino molido", "cantidad": 0.5, "unidad": "cucharadita", "nota": "opcional" }
+    {
+      "nombre": "Lentejas cocidas de bote",
+      "cantidad": 400,
+      "unidad": "g",
+      "nota": "escurridas y enjuagadas"
+    },
+    {
+      "nombre": "Chorizo para cocinar",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "nombre": "Patata",
+      "cantidad": 1,
+      "unidad": "",
+      "nota": "mediana"
+    },
+    {
+      "nombre": "Zanahorias",
+      "cantidad": 2,
+      "unidad": ""
+    },
+    {
+      "nombre": "Calabacín",
+      "cantidad": 1,
+      "unidad": "",
+      "nota": "pequeño"
+    },
+    {
+      "nombre": "Cebolla",
+      "cantidad": 0.5,
+      "unidad": "",
+      "nota": "media mediana, o una pequeña"
+    },
+    {
+      "nombre": "Dientes de ajo",
+      "cantidad": 2,
+      "unidad": ""
+    },
+    {
+      "nombre": "Tomate maduro",
+      "cantidad": 1,
+      "unidad": ""
+    },
+    {
+      "nombre": "Aceite de oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "nombre": "Pimentón dulce",
+      "cantidad": 0.5,
+      "unidad": "cucharadita"
+    },
+    {
+      "nombre": "Agua o caldo de verduras",
+      "cantidad": 600,
+      "unidad": "ml"
+    },
+    {
+      "nombre": "Sal",
+      "cantidad": null,
+      "unidad": "",
+      "nota": "al gusto (poca, el chorizo ya es salado)"
+    },
+    {
+      "nombre": "Hoja de laurel",
+      "cantidad": 1,
+      "unidad": "",
+      "nota": "opcional"
+    },
+    {
+      "nombre": "Comino molido",
+      "cantidad": 0.5,
+      "unidad": "cucharadita",
+      "nota": "opcional"
+    }
   ],
   "pasos": [
     {
