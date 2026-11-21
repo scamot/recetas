@@ -6,16 +6,64 @@
   "raciones": 2,
   "descripcion": "Bizcocho de plátano con proteína y chocolate negro, sin harina de trigo ni azúcar.",
   "ingredientes": [
-    { "nombre": "Plátano", "cantidad": 1, "unidad": "", "nota": "cuanto más maduro, mejor" },
-    { "nombre": "Huevo entero", "cantidad": 1, "unidad": "" },
-    { "nombre": "Claras de huevo", "cantidad": 2, "unidad": "", "nota": "unos 60 ml si son de brick" },
-    { "nombre": "Harina de avena", "cantidad": 2, "unidad": "cucharada", "nota": "soperas, unos 20 g" },
-    { "nombre": "Proteína en polvo", "cantidad": 1, "unidad": "scoop", "nota": "unos 30 g" },
-    { "nombre": "Levadura química (tipo Royal)", "cantidad": 1, "unidad": "cucharadita", "nota": "unos 4 g" },
-    { "nombre": "Canela molida", "cantidad": 1, "unidad": "cucharadita" },
-    { "nombre": "Jengibre molido", "cantidad": 0.5, "unidad": "cucharadita", "nota": "opcional" },
-    { "nombre": "Eritritol", "cantidad": 1, "unidad": "cucharada", "nota": "opcional, para endulzar" },
-    { "nombre": "Chocolate negro 85 %", "cantidad": 20, "unidad": "g", "nota": "2 onzas, en trocitos" }
+    {
+      "nombre": "Plátano",
+      "cantidad": 1,
+      "unidad": "",
+      "nota": "cuanto más maduro, mejor"
+    },
+    {
+      "nombre": "Huevo entero",
+      "cantidad": 1,
+      "unidad": ""
+    },
+    {
+      "nombre": "Claras de huevo",
+      "cantidad": 2,
+      "unidad": "",
+      "nota": "unos 60 ml si son de brick"
+    },
+    {
+      "nombre": "Harina de avena",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "nota": "soperas, unos 20 g"
+    },
+    {
+      "nombre": "Proteína en polvo",
+      "cantidad": 1,
+      "unidad": "scoop",
+      "nota": "unos 30 g"
+    },
+    {
+      "nombre": "Levadura química (tipo Royal)",
+      "cantidad": 16,
+      "unidad": "g",
+      "nota": "1 sobre"
+    },
+    {
+      "nombre": "Canela molida",
+      "cantidad": 1,
+      "unidad": "cucharadita"
+    },
+    {
+      "nombre": "Jengibre molido",
+      "cantidad": 0.5,
+      "unidad": "cucharadita",
+      "nota": "opcional"
+    },
+    {
+      "nombre": "Eritritol",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "nota": "opcional, para endulzar"
+    },
+    {
+      "nombre": "Chocolate negro 85 %",
+      "cantidad": 20,
+      "unidad": "g",
+      "nota": "2 onzas, en trocitos"
+    }
   ],
   "pasos": [
     {
