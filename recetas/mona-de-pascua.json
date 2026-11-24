@@ -1,0 +1,67 @@
+{
+  "titulo": "Mona de Pascua",
+  "categoria": "Postres",
+  "tiempo": "1 h 30 min + nevera",
+  "dificultad": "Media",
+  "raciones": 8,
+  "descripcion": "La mona catalana de bizcocho: un pa de pessic emborrachado con almíbar, relleno y cubierto de trufa, con almendra tostada en los lados. Encima, huevos de chocolate y plumas.",
+  "ingredientes": [
+    { "grupo": "Para el bizcocho (pa de pessic)" },
+    { "nombre": "Huevos", "cantidad": 4, "unidad": "", "nota": "a temperatura ambiente" },
+    { "nombre": "Azúcar", "cantidad": 120, "unidad": "g" },
+    { "nombre": "Harina de trigo", "cantidad": 120, "unidad": "g" },
+    { "nombre": "Ralladura de limón", "cantidad": null, "unidad": "", "nota": "de medio limón" },
+    { "nombre": "Sal", "cantidad": 1, "unidad": "pizca" },
+    { "grupo": "Para el almíbar" },
+    { "nombre": "Agua", "cantidad": 100, "unidad": "ml" },
+    { "nombre": "Azúcar", "cantidad": 50, "unidad": "g" },
+    { "nombre": "Licor (ron, Cointreau…)", "cantidad": 1, "unidad": "cucharada", "nota": "opcional" },
+    { "grupo": "Para la trufa" },
+    { "nombre": "Nata para montar (35 % MG)", "cantidad": 400, "unidad": "ml" },
+    { "nombre": "Chocolate negro para postres", "cantidad": 200, "unidad": "g" },
+    { "grupo": "Para decorar" },
+    { "nombre": "Almendra laminada", "cantidad": 80, "unidad": "g" },
+    { "nombre": "Huevos de chocolate y plumas de colores", "cantidad": null, "unidad": "", "nota": "al gusto" }
+  ],
+  "pasos": [
+    {
+      "texto": "La víspera (o al menos 6 horas antes) prepara la trufa: calienta la nata hasta que empiece a humear, sin que llegue a hervir, y viértela sobre el chocolate troceado. Espera 2 minutos y remueve hasta que quede liso. Deja que se temple y guárdala tapada en la nevera.",
+      "consejo": "Tiene que estar muy fría para poder montarla después; si no, no coge cuerpo."
+    },
+    {
+      "texto": "Precalienta el horno a 180 ºC con calor arriba y abajo. Engrasa un molde redondo de 22 cm y forra la base con papel de horno."
+    },
+    {
+      "texto": "Bate los huevos con el azúcar, la sal y la ralladura de limón a velocidad alta durante 8–10 minutos, hasta que la mezcla esté blanquecina y haya triplicado su volumen.",
+      "consejo": "Está a punto cuando, al levantar las varillas, cae un cordón que se queda marcado un momento sobre la superficie (punto de cinta). Todo el aire del bizcocho sale de aquí: no lo acortes."
+    },
+    {
+      "texto": "Tamiza la harina encima en tres veces y mézclala con una espátula, con movimientos envolventes de abajo arriba, solo hasta que no se vea harina.",
+      "consejo": "Si remueves con fuerza o de más, el bizcocho se baja y queda apelmazado."
+    },
+    {
+      "texto": "Vierte en el molde y hornea 25–30 minutos, sin abrir el horno los primeros 20. Está hecho cuando un palillo sale limpio.",
+      "consejo": "Desmóldalo y déjalo enfriar del todo sobre una rejilla antes de cortarlo."
+    },
+    {
+      "texto": "Mientras se enfría, haz el almíbar: hierve el agua con el azúcar 2 minutos, apártalo del fuego, añade el licor si lo usas y deja que se enfríe."
+    },
+    {
+      "texto": "Tuesta la almendra laminada en una sartén sin aceite, a fuego medio y removiendo, hasta que esté dorada. Pásala a un plato para que no se queme."
+    },
+    {
+      "texto": "Monta la trufa fría con las varillas, como si fuera nata, hasta que forme picos suaves.",
+      "consejo": "Para en cuanto tenga cuerpo: si te pasas, se corta y queda granulosa."
+    },
+    {
+      "texto": "Corta el bizcocho en dos discos. Pon el primero en la bandeja, empápalo con la mitad del almíbar y extiende un tercio de la trufa. Coloca el segundo disco, empápalo con el resto del almíbar y cubre la parte de arriba y los lados con el resto de la trufa."
+    },
+    {
+      "texto": "Pega la almendra tostada en los lados presionando suavemente con la mano. Decora la parte de arriba con los huevos de chocolate y las plumas, y guárdala en la nevera al menos 2 horas antes de servir."
+    }
+  ],
+  "consejos": [
+    "Se puede montar la víspera: aguanta bien 2–3 días en la nevera, tapada.",
+    "Si se quiere una versión más ligera, se puede rellenar con nata montada en lugar de trufa y reservar la trufa solo para la cobertura."
+  ]
+}
